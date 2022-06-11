@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Salam Necesiz!!!!</title>
+</head>
+<body>
+    <div class="Bank-xidmetleri">
+        <div class="top">
+            <h1>Nagd Pul Krediti</h1>
+
+        <form action="">
+            <div class="group"></div>
+            <div class="tittle">Kredit Miqdari</div>
+            <input id="k-miqdar" type="text">
+            
+            <div class="group"></div>
+            <div class="tittle">Muddet(ay)</div>
+            <input id="ay" type="text">
+
+            <div class="group"></div>
+            <div class="tittle">Kredit Fazizi</div>
+            <input id="faiz" type="text">
+        </form>   
+        </div>
+
+        <div class="odenis">
+            <div class="total-m">
+                <h3>Umumi Mebleg</h3>
+                <span id="total-meb"></span>
+            </div>
+
+            <div class="total-f">
+                <h3>Faiz meblegi</h3>
+                <span id="total-faiz"></span>
+            </div>
+
+            <div class="Ay-odenis">
+                <h3>Ayliq Odenis</h3>
+                <span id="total-ay"></span>
+            </div>
+
+            <button onclick="hesabla()" >Hesabla</button>
+        </div>
+    </div>
+
+    <div class="counter" style="text-align: center;">
+        <h1 id="num">0</h1>
+        <button id="increment"><i class="fa-solid fa-plus"></i></button>
+        <button id="reset">RESET</button>
+        <button id="decrement"><i class="fa-solid fa-minus"></i></button>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
